@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Whitepaper</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #1e1e1e;
+      padding: 40px;
+      border-radius: 14px;
+      width: 350px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      opacity: 0.8;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #6c5ce7;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #5a4bd6;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Get Your Whitepaper</h1>
+  <p>Fill the form below to instantly access the report</p>
+
+  <form action="https://formspree.io/f/xlgzwqab" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required>
+
+    <input type="email" name="email" placeholder="Business Email" required>
+
+    <!-- REQUIRED: redirect after successful submission -->
+    <input type="hidden" name="_redirect" value="https://whitepapers.ai/hso/confronting-the-three-hidden-risks-that-undermine-value-of-ai-in-aec/?pubid=802&s2=aff1">
+
+    <button type="submit">Download Now</button>
+
+  </form>
+
+</div>
+
+</body>
+</html>
